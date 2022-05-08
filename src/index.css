@@ -1,0 +1,134 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Kristi&family=Montserrat:wght@100;200;300;400;600;700&family=Playfair+Display:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+/* ------------------
+        global 
+---------------------*/
+body {
+  background: url("https://wpbingosite.com/wordpress/wrish/wp-content/uploads/2021/08/testimonial-1.jpg");
+  margin: 0;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  font-family: Playfair Display, sans-serif;
+  font-size: 65px;
+}
+h2 {
+  font-family: Playfair Display, sans-serif;
+  font-size: 55px;
+}
+h3 {
+  font-family: Playfair Display, sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+}
+h4 {
+  font-family: Playfair Display, sans-serif;
+  font-size: 35px;
+}
+h5 {
+  font-family: Playfair Display, sans-serif;
+  font-size: 25px;
+}
+h6 {
+  font-family: Playfair Display, sans-serif;
+  font-size: 20px;
+}
+/* gradient background */
+.gradient-bg {
+  background: rgb(255, 204, 5);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 205, 5, 0.959) 0%,
+    rgba(255, 204, 5, 1) 100%
+  );
+  border: none;
+}
+/* gradient button */
+.gradient-btn {
+  background: rgb(255, 204, 5);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 118, 210, 0.959) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  border: none;
+}
+/* gradient text */
+.gradient-txt {
+  color: rgb(255, 204, 5);
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 205, 5, 0.959) 0%,
+    rgba(255, 204, 5, 1) 100%
+  );
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* border radius */
+.radius-card {
+  border-radius: 8px;
+}
+/*card border */
+.border-card {
+  border: 1px solid rgba(128, 128, 128, 0.123);
+}
+
+/* ------------------
+        header 
+---------------------*/
+/* navbar item */
+.nav-item:hover {
+  background: rgba(255, 205, 5, 0.829);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.829) 0%,
+    rgba(255, 255, 255, 0.829) 100%
+  );
+  border: none;
+  border-radius: 5px;
+}
+
+/* ------------------
+        intro
+---------------------*/
+
+/* banner background */
+.hero-bg {
+  background: url("https://wanderers.qodeinteractive.com/wp-content/uploads/2018/03/coming-soon-background-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 600px;
+}
+/*banner header text  */
+.hero-bg h1 {
+  font-size: 65px;
+}
+/* -------------------
+        footer        
+--------------------- */
+/* footer background */
+
+.footer-bg {
+  background: url("https://wpbingosite.com/wordpress/wrish/wp-content/uploads/2021/08/bacg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: "100vw";
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
